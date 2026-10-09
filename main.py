@@ -1,4 +1,5 @@
 import tkinter as tk
+from calculadora import abrir_calculadora
 janela = tk.Tk()
 janela.title('HOME')
 janela.geometry('500x400')
@@ -28,9 +29,9 @@ botao_confirmar = tk.Button(janela, text='Confirmar',command=confirmar_nome)
 botao_confirmar.pack()
 
 #layout dos botoes
-botao_1 = tk.Button(area_botoes, text='Calculadora', width=18, height=2)
+botao_1 = tk.Button(area_botoes, text='Calculadora', width=18, height=2, command=lambda: abrir_calculadora(janela))
 botao_1.grid(row=0, column=0, padx=10, pady=10)
-botao_2 = tk.Button(area_botoes, text='Que número estou pensando?', width=18, height=2)
+botao_2 = tk.Button(area_botoes, text='Adivinhe o numero?', width=18, height=2)
 botao_2.grid(row=0, column=1, padx=10, pady=10)
 botao_3 = tk.Button(area_botoes, text='em breve', width=18, height=2)
 botao_3.grid(row=1, column=0, padx=10, pady=10)
