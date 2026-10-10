@@ -12,8 +12,8 @@ A small desktop app built with Python and Tkinter. It opens a welcome screen, as
 ## Screenshots
 
 ![Home screen](screenshots/home.png)
+![Welcome menu](screenshots/welcome.png)
 ![Calculator](screenshots/calculator.png)
-
 ## Requirements
 
 - Python 3
@@ -28,6 +28,9 @@ git clone https://github.com/IsaacP21santos/Python.git
 cd Python
 python main.py
 ```
+## Run without installing Python (Windows)
+
+Download the latest `PythonMiniApps.exe` from the [Releases page](https://github.com/IsaacP21santos/Python/releases) and double-click it. Windows may show a SmartScreen warning because the app is not code-signed (click "More info" → "Run anyway"). If you'd rather not, run it from source as shown above.
 
 On some systems the command is `python3` or `py` instead of `python`.
 
